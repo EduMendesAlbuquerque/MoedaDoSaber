@@ -35,14 +35,77 @@ https://github.com/user-attachments/assets/b5255a15-2b68-47ec-914c-00be04a345d2
 ### 1 - Tela de Login
 ![Tela de Login](frontend/Figma/1-Login.png)
 
-### 2 - Tela de Registro
-![Tela de Registro](frontend/Figma/2-CriarConta.png)
+### 2 - Tela de Criar Conta
+![Tela de Criar Conta](frontend/Figma/2-CriarConta.png)
 
-### 3 - Tela de Gerenciamento (Sem Dados)
-![Tela de Gerenciamento](frontend/Figma/3-Gerenciamento.png)
+### 3 - Tela do Professor - Tela Inicial
+![Tela do Professor - Tela Inicial](frontend/Figma/3-Professor-TelaInicial.png)
 
-### 4 - Tela de Criação de Plano de Aula
-![Tela de Criação de Plano de Aula](frontend/Figma/4-CriarPlanoDeAula.png)
+### 4 - Tela do Professor - Criação de Plano de Aula
+![Tela do Professor - Criação de Plano de Aula](frontend/Figma/4-Professor-CriacaoDePlanoDeAula.png)
 
-### 5 - Tela de Gerenciamento (Com Dados)
-![Tela de Gerenciamento](frontend/Figma/5-Gerenciamento.png)
+### 5 - Tela do Professor - Gerenciamento de Aulas
+![Tela do Professor - Gerenciamento de Aulas](frontend/Figma/5-Professor-GerenciamentoDeAulas.png)
+
+### 6 - Tela de Edição de Plano de Aula
+![Tela de Edição de Plano de Aula](frontend/Figma/6-EditarPlanoDeAula.png)
+
+### 7 - Tela do Coordenador - Tela Inicial
+![Tela do Coordenador - Tela Inicial](frontend/Figma/7-Coordenador-TelaInicial.png)
+
+### 8 - Tela do Coordenador - Gerenciar Professores
+![Tela do Coordenador - Gerenciar Professores](frontend/Figma/8-Coordenador-GerenciarProfessores.png)
+
+### 9 - Tela do Coordenador - Gerenciar Professores
+![Tela do Coordenador - Gerenciar Professores](frontend/Figma/9-Coordenador-GerenciarProfessores.png)
+
+### 10 - Tela do Coordenador - Adicionar Professor
+![Tela do Coordenador - Adicionar Professor](frontend/Figma/10-Coordenador-AdicionarProfessor.png)
+
+### 11 - Tela do Coordenador - Editar Professor
+![Tela do Coordenador - Editar Professor](frontend/Figma/11-Coordenador-EditarProfessor.png)
+
+### 12 - Tela do Coordenador - Gerenciar Turmas
+![Tela do Coordenador - Gerenciar Turmas](frontend/Figma/12-Coordenador-GerenciarTurmas.png)
+
+### 13 - Tela do Coordenador - Gerenciar Turmas
+![Tela do Coordenador - Gerenciar Turmas](frontend/Figma/13-Coordenador-GerenciarTurmas.png)
+
+### 14 - Tela do Coordenador - Adicionar Turma
+![Tela do Coordenador - Adicionar Turma](frontend/Figma/14-Coordenador-AdicionarTurma.png)
+
+### 15 - Tela do Coordenador - Editar Turma
+![Tela do Coordenador - Editar Turma](frontend/Figma/15-Coordenador-EditarTurma.png)
+
+### 16 - Tela do Coordenador - Gerenciar Disciplinas
+![Tela do Coordenador - Gerenciar Disciplinas](frontend/Figma/16-Coordenador-GerenciarDisciplinas.png)
+
+### 17 - Tela do Coordenador - Gerenciar Disciplinas
+![Tela do Coordenador - Gerenciar Disciplinas](frontend/Figma/17-Coordenador-GerenciarDisciplinas.png)
+
+### 18 - Tela do Coordenador - Adicionar Disciplina
+![Tela do Coordenador - Adicionar Disciplina](frontend/Figma/18-Coordenador-AdicionarDisciplina.png)
+
+### 19 - Tela do Coordenador - Editar Disciplina
+![Tela do Coordenador - Editar Disciplina](frontend/Figma/19-Coordenador-EditarDisciplina.png)
+
+### 20 - Tela do Coordenador - Gerenciar Alunos
+![Tela do Coordenador - Gerenciar Alunos](frontend/Figma/20-Coordenador-GerenciarAlunos.png)
+
+### 21 - Tela do Coordenador - Gerenciar Alunos
+![Tela do Coordenador - Gerenciar Alunos](frontend/Figma/21-Coordenador-GerenciarAlunos.png)
+
+### 22 - Tela do Coordenador - Adicionar Aluno
+![Tela do Coordenador - Adicionar Aluno](frontend/Figma/22-Coordenador-AdicionarAluno.png)
+
+### 23 - Tela do Coordenador - Editar Aluno
+![Tela do Coordenador - Editar Aluno](frontend/Figma/23-Coordenador-EditarAluno.png)
+
+### 24 - Tela do Aluno - Tela Inicial
+![Tela do Aluno - Tela Inicial](frontend/Figma/24-Aluno-TelaInicial.png)
+
+### 25 - Tela do Aluno - Extrato
+![Tela do Aluno - Extrato](frontend/Figma/25-Aluno-Extrato.png)
+
+### 26 - Tela do Aluno - Consultar Atividades
+![Tela do Aluno - Consultar Atividades](frontend/Figma/26-Aluno-ConsultarAtividades.png)
