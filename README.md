@@ -11,23 +11,6 @@
 - **DAYANE CRISTINE MIRANDA DE MEIRELES** - Trabalho escrito;
 - **RODRIGO HENRIQUE CORDEIRO** – Team Lead, consumir os Endpoints no Front-End com JavaScript e revisão técnica.
 
-## Telas
-
-### 1 - Tela de Login
-![Tela de Login](frontend/Figma/1-Login.png)
-
-### 2 - Tela de Registro
-![Tela de Registro](frontend/Figma/2-CriarConta.png)
-
-### 3 - Tela de Gerenciamento (Sem Dados)
-![Tela de Gerenciamento](frontend/Figma/3-Gerenciamento.png)
-
-### 4 - Tela de Criação de Plano de Aula
-![Tela de Criação de Plano de Aula](frontend/Figma/4-CriarPlanoDeAula.png)
-
-### 5 - Tela de Gerenciamento (Com Dados)
-![Tela de Gerenciamento](frontend/Figma/5-Gerenciamento.png)
-
 ## Tecnologias
 - Banco de Dados: **SQL Server**
 - Back-End: **PHP com Laravel**
@@ -46,3 +29,20 @@ https://github.com/user-attachments/assets/b5255a15-2b68-47ec-914c-00be04a345d2
    - Gerar as chaves do artisan:  `php artisan key:generate`  
 3. No SQL Server executar o script **backend\database\script.sql**
 4. No VS Code, instalar o **LiverServer** e ativar seu funcionamento para acessar a tela inicial com o login.
+
+## Telas
+
+### 1 - Tela de Login
+![Tela de Login](frontend/Figma/1-Login.png)
+
+### 2 - Tela de Registro
+![Tela de Registro](frontend/Figma/2-CriarConta.png)
+
+### 3 - Tela de Gerenciamento (Sem Dados)
+![Tela de Gerenciamento](frontend/Figma/3-Gerenciamento.png)
+
+### 4 - Tela de Criação de Plano de Aula
+![Tela de Criação de Plano de Aula](frontend/Figma/4-CriarPlanoDeAula.png)
+
+### 5 - Tela de Gerenciamento (Com Dados)
+![Tela de Gerenciamento](frontend/Figma/5-Gerenciamento.png)
