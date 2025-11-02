@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
   <link rel="stylesheet" href="../TelaInicial/TelaInicial.css">
   <link rel="shortcut icon" href="../Imagens/Coruja_sem_fundo.png" type="image/png">
 </head>
+
 <body>
-   <header>
+  <header>
     <img src="../Imagens/Coruja_sem_fundo.png" alt="Logo Moeda do $aber" class="logo">
 
     <h1>MOEDA DO $ABER</h1>
@@ -18,11 +20,29 @@
       <img src="../Imagens/Octicons.png" alt="Ícone de Usuário">
     </div>
   </header>
- 
-  <main>
-    <div class="container-botoes">
-      <button id="btnCadastrar">Cadastrar Alunos</button>
+
+  <div id="loading"></div>
+
+  <main id="mainContent" style="display:none;">
+    <div class="container-acoes">
+      <button id="btnAdicionarAluno">Adicionar Aluno</button>
+      <input type="text" id="inputPesquisar" placeholder="Pesquisar...">
     </div>
+
+    <table id="tabelaAlunos">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Aluno</th>
+          <th>Matrícula</th>
+          <th>Curso</th>
+          <th>Status</th>
+          <th>Editar</th>
+          <th>Excluir</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </main>
 
   <footer>
@@ -40,4 +60,5 @@
 
   <script type="module" src="../TelaInicial/TelaInicial.js"></script>
 </body>
+
 </html>
