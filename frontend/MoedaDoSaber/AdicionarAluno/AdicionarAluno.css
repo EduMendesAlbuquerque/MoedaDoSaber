@@ -1,0 +1,157 @@
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+
+header {
+  background-color: #e5c99a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  width: 50px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #5b4426;
+  text-align: center;
+  flex: 1;
+}
+
+.usuario {
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+.icone-usuario {
+  width: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+
+.editar-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.editar-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.editar-container p {
+  margin-bottom: 15px;
+}
+
+hr {
+  margin: 25px 0;
+  border: 1px solid #999;
+}
+
+form {
+  text-align: center;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.campo label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.campo input {
+  width: 320px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background-color: #f6f6de;
+  padding: 8px 12px;
+  font-size: 1rem;
+}
+
+.campo.grande input {
+  width: 700px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 50px 0 0;
+}
+
+button.cancelar {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.editar {
+  background-color: #d48a13;
+  color: #fff;
+  border: 1px solid #855b0d;
+  border-radius: 10px;
+  width: 110px;
+  height: 45px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.editar:hover {
+  background-color: #b87710;
+}
+
+
+footer {
+  background-color: #e6cfa4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+footer .left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+footer .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .right img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}

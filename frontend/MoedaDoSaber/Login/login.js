@@ -23,14 +23,8 @@ document
           throw new Error("Erro ao buscar planos de aula.");
         }
 
-        const planos = await planosResponse.json();
-        console.log(planos);
-
-        if (Array.isArray(planos.data) && planos.data.length === 0) {
-          window.location.href = "../Plano/SemPlanos/sem_planos.html";
-        } else {
-          window.location.href = "../GerenciarAulas/gerenciar_aulas.html";
-        }
+        window.location.href = "../TelaInicial/TelaInicial.html";
+        
       } else {
         throw new Error("ID do professor não encontrado na resposta.");
       }
