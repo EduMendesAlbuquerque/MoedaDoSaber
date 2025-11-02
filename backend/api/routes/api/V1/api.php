@@ -5,6 +5,7 @@ use Backend\Models\Auth\AuthController;
 use Backend\Models\PlanoAula\PlanoAulaController;
 use Backend\Models\User\UserController;
 use Backend\Models\Atividade\AtividadeController;
+use Backend\Models\Aluno\AlunoController;
 
 Route::group([
     'prefix'     => 'v1',
@@ -26,4 +27,9 @@ Route::group([
         // Atividades: listar todas com notas, cadastrar e visualizar uma
         Route::get('atividades', [AtividadeController::class, 'index']);
         Route::get('atividades/{id}', [AtividadeController::class, 'show']);
+
+        Route::apiResource( 'aluno', AlunoController::class );
+        Route::get('/aluno/{id}', [AlunoController::class, 'show']);
+        Route::post('/aluno/{id}', [AlunoController::class, 'create']);
+        Route::put('/aluno/{id}', [AlunoController::class, 'update']);
 });

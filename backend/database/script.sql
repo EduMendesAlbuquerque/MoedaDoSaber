@@ -77,3 +77,17 @@ insert into atividade_resultado (id_atividade, nota, observacao)
     values (1, 9.5, 'Excelente desempenho na Atividade 1 do aluno morango do amor'),
            (2, 8.0, 'Bom desempenho na Atividade 2 do aluno bobbie goods'),
            (3, 7.5, 'Desempenho satisfatório na Atividade do aluno labubu')
+
+CREATE TABLE dbo.aluno
+(
+    id           int           NOT NULL IDENTITY (1,1) PRIMARY KEY,
+    aluno        nvarchar(255) NOT NULL,
+    matricula    int           NOT NULL,
+    curso        nvarchar(255) NOT NULL,
+    statusCurso  nvarchar(255) NOT NULL
+)
+
+insert into aluno (aluno, matricula, curso, statusCurso)
+    values ('Jadson Algeri', 1000, 'Análise e Desenvolvimento de Sistemas', 'Ativo'),
+		   ('Rodrigo Cordeiro', 1001, 'Ciências Sociais', 'Trancado'),
+		   ('Debora Correa', 1002, 'Educação Física', 'Concluido')
