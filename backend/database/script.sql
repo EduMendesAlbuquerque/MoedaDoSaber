@@ -50,3 +50,30 @@ CREATE TABLE personal_access_tokens
     created_at     DATETIME DEFAULT GETDATE(),
     updated_at     DATETIME DEFAULT GETDATE()
 );
+
+CREATE TABLE dbo.atividade
+(
+    id        int           NOT NULL IDENTITY (1,1) PRIMARY KEY,
+    titulo    nvarchar(100) NOT NULL,
+    descricao nvarchar(255) NOT NULL
+)
+
+CREATE TABLE dbo.atividade_resultado
+(
+    id           int           NOT NULL IDENTITY (1,1) PRIMARY KEY,
+    id_atividade int           NOT NULL,
+    nota         decimal(4, 2) NOT NULL,
+    observacao   nvarchar(255) NOT NULL,
+    CONSTRAINT FK_atividade_resultado FOREIGN KEY (id_atividade) REFERENCES dbo.atividade (id),
+)
+
+
+insert into atividade (titulo, descricao)
+    values ('Atividade 1', 'Descrição da Atividade 1'),
+           ('Atividade 2', 'Descrição da Atividade 2'),
+           ('Atividade 3', 'Descrição da Atividade 3')
+
+insert into atividade_resultado (id_atividade, nota, observacao)
+    values (1, 9.5, 'Excelente desempenho na Atividade 1 do aluno morango do amor'),
+           (2, 8.0, 'Bom desempenho na Atividade 2 do aluno bobbie goods'),
+           (3, 7.5, 'Desempenho satisfatório na Atividade do aluno labubu')

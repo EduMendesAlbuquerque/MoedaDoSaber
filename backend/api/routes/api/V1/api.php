@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Backend\Models\Auth\AuthController;
 use Backend\Models\PlanoAula\PlanoAulaController;
 use Backend\Models\User\UserController;
+use Backend\Models\Atividade\AtividadeController;
 
 Route::group([
     'prefix'     => 'v1',
@@ -21,4 +22,8 @@ Route::group([
         Route::get('/plano-aula/{id}', [PlanoAulaController::class, 'show']);
         Route::post('/plano-aula/{id}', [PlanoAulaController::class, 'create']);
         Route::put('/plano-aula/{id}', [PlanoAulaController::class, 'update']);
+
+        // Atividades: listar todas com notas, cadastrar e visualizar uma
+        Route::get('atividades', [AtividadeController::class, 'index']);
+        Route::get('atividades/{id}', [AtividadeController::class, 'show']);
 });
