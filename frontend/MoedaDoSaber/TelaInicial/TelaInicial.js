@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const { data } = await response.json();
 
-            // Se não houver alunos, redireciona imediatamente
             if (!data || data.length === 0) {
                 window.location.replace("../SemAluno/SemAluno.html");
                 return;
@@ -25,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
             alunos = data;
 
-            // Mostra a tela principal
             loading.style.display = "none";
             mainContent.style.display = "block";
 

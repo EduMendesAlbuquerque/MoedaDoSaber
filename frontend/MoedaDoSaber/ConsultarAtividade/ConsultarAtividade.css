@@ -1,0 +1,164 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+
+.topo {
+  background-color: #e2c590;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+
+  font-family: 'Arial', serif;
+  font-size: 28px;
+  color: #886f43; 
+  
+}
+
+.topo h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.usuario {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: right;
+  font-size: 0.9em;
+  color: #4a4a4a;
+}
+
+.usuario strong {
+    color: #0f0f0f;
+}
+
+.usuario img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #886f43;
+  padding: 5px;
+}
+
+.icone-usuario {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+
+main {
+  flex: 1; 
+  padding: 20px 60px;
+}
+
+.voltar {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+
+.tabela-container {
+  display: flex;
+  justify-content: center;
+}
+
+.atividades {
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid #004080;
+  background-color: #efefef;
+}
+
+.atividades thead {
+  background-color: #d6d6d6;
+}
+
+.atividades th,
+.atividades td {
+  padding: 12px 20px;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-concluir {
+  background-color: #e3a100;
+  border: 1px solid #7a5000;
+  border-radius: 8px;
+  padding: 6px 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  transition: background 0.2s;
+}
+
+.btn-concluir:hover {
+  background-color: #cf9200;
+}
+
+
+footer {
+  background-color: #e2c590;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  font-size: 14px;
+  margin-top: auto; 
+}
+
+.rodape-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.whatsapp {
+  width: 30px;
+  height: 30px;
+}

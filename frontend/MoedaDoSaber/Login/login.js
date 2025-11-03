@@ -13,7 +13,7 @@ document.getElementById("login-form").addEventListener("submit", async (event) =
 
     if (response.data && response.data.id_professor) {
       localStorage.setItem("id_professor", response.data.id_professor);
-      // Redireciona sempre para TelaInicial.html
+      
       window.location.href = "../TelaInicial/TelaInicial.html";
     } else {
       throw new Error("ID do professor não encontrado na resposta.");
