@@ -108,4 +108,4 @@ https://github.com/user-attachments/assets/b5255a15-2b68-47ec-914c-00be04a345d2
 ![Tela do Aluno - Extrato](frontend/Figma/25-Aluno-Extrato.png)
 
 ### 26 - Tela do Aluno - Consultar Atividades
-![Tela do Aluno - Consultar Atividades](frontend/Figma/26-Aluno-ConsultarAtividades.png)
+![Tela do Aluno - Consultar Atividades](frontend/Figma/26-Aluno-ConsultarAtividade.png)
