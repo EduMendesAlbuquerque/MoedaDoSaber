@@ -6,6 +6,7 @@ use Backend\Models\PlanoAula\PlanoAulaController;
 use Backend\Models\User\UserController;
 use Backend\Models\Atividade\AtividadeController;
 use Backend\Models\Aluno\AlunoController;
+use Backend\Models\Pessoa\PessoaController;
 
 Route::group([
     'prefix'     => 'v1',
@@ -24,7 +25,6 @@ Route::group([
         Route::post('/plano-aula/{id}', [PlanoAulaController::class, 'create']);
         Route::put('/plano-aula/{id}', [PlanoAulaController::class, 'update']);
 
-        // Atividades: listar todas com notas, cadastrar e visualizar uma
         Route::get('atividades', [AtividadeController::class, 'index']);
         Route::get('atividades/{id}', [AtividadeController::class, 'show']);
 
@@ -32,4 +32,7 @@ Route::group([
         Route::get('/aluno/{id}', [AlunoController::class, 'show']);
         Route::post('/aluno/{id}', [AlunoController::class, 'create']);
         Route::put('/aluno/{id}', [AlunoController::class, 'update']);
+
+        Route::get('pessoa', [PessoaController::class, 'index']);
+        Route::get('pessoa/{id}', [PessoaController::class, 'show']);
 });
