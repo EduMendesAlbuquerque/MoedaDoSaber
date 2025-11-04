@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moeda do $aber - Coordenador</title>
+  <title>Moeda do $aber - Aluno</title>
   <link rel="stylesheet" href="../TelaInicial/TelaInicial.css">
   <link rel="shortcut icon" href="../Imagens/Coruja_sem_fundo.png" type="image/png">
 </head>
@@ -16,35 +16,20 @@
     <h1>MOEDA DO $ABER</h1>
 
     <div class="usuario">
-            <p>Você está logado como<br><strong>Coordenador</strong></p>
-            <a href="../../Login/login.html">
-                <img src="../Imagens/Octicons.png" alt="Ícone de Usuário">
-            </a>
-        </div>
+      <p>Você está logado como<br><strong>Aluno</strong></p>
+      <a href="../../Login/login.html">
+        <img src="../Imagens/Octicons.png" alt="Ícone de Usuário">
+      </a>
+    </div>
   </header>
 
   <div id="loading"></div>
 
-  <main id="mainContent" style="display:none;">
-    <div class="container-acoes">
-      <button id="btnAdicionarAluno">Adicionar Aluno</button>
-      <input type="text" id="inputPesquisar" placeholder="Pesquisar...">
+  <main id="mainContent">
+    <div class="acoes-aluno">
+      <button class="create-plan-button" onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Extrato</button>
+      <button class="create-plan-button" onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Consultar Atividades</button>
     </div>
-
-    <table id="tabelaAlunos">
-      <thead>
-        <tr>
-          <th>Código</th>
-          <th>Aluno</th>
-          <th>Matrícula</th>
-          <th>Curso</th>
-          <th>Status</th>
-          <th>Editar</th>
-          <th>Excluir</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
   </main>
 
   <footer>
