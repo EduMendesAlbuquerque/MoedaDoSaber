@@ -17,11 +17,11 @@
 - Front-End: **HTML5, CSS3 e JavaScript**
 - Docker: **container para Servidor Web, PHP e Banco de Dados.**
 
-## Vídeo 1 - Funcionamento do Moeda do Saber com login de Professor
+## 1ª Entrega do MVP - Funcionamento do Moeda do Saber com login de Professor
 
 https://github.com/user-attachments/assets/b5255a15-2b68-47ec-914c-00be04a345d2
 
-## Vídeo 2 - Funcionamento do Moeda do Saber com login do Coordenador
+## 2ª Entrega do MVP - Funcionamento do Moeda do Saber com as novas funcionalidades do Coordenador e Aluno
 
 https://github.com/user-attachments/assets/4ff9bd94-1b16-4e58-a46e-d428d4c6341e
 
