@@ -1,16 +1,28 @@
+html,
 body {
-    font-family: sans-serif;
+    height: 100%;
     margin: 0;
-    background-color: #f8f8f8;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
 }
 
-.header {
-    background-color: #E6CEA3;
-    color: #886F43;
-    padding: 15px;
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #e6cea3;
+    color: #886f43;
+    padding: 15px 20px;
     width: 100%;
     font-size: 1.1em;
     font-weight: bold;
@@ -18,28 +30,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header .logo {
+header .logo {
     position: absolute;
     left: 20px;
     width: 50px;
     height: 50px;
 }
 
-.profile-icon {
+.usuario {
     position: absolute;
     right: 20px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: right;
+    font-size: 0.9em;
+    color: #4a4a4a;
+    padding-right: 16px;
+    margin-right: 16px;
 }
 
-.profile-icon img {
-    width: 100%;
-    height: 100%;
+.usuario strong {
+    color: #0f0f0f;
+}
+
+.usuario img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
     object-fit: cover;
+    background-color: #886f43;
+    padding: 5px;
 }
 
 .container {
@@ -52,7 +76,7 @@ hr {
     border: 1px solid #ddd;
     width: 80%;
     margin: 20px auto;
-    
+
 }
 
 .message-container {
@@ -100,7 +124,8 @@ hr {
     text-align: center;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -111,6 +136,7 @@ html, body {
 .container {
     flex: 1;
 }
+
 .footer {
     background-color: #E6CEA3;
     width: 100%;
@@ -121,7 +147,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    margin-top: auto; 
+    margin-top: auto;
 }
 
 .footer-right {
@@ -136,11 +162,12 @@ html, body {
     cursor: pointer;
 }
 
-.footer-center{
+.footer-center {
     text-align: center;
     flex: 1;
 }
-.footer-center p{
+
+.footer-center p {
     margin: 0;
     line-height: 1.5;
 }

@@ -1,55 +1,59 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+}
 
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, sans-serif;
+main {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.topo {
-  background-color: #e2c590;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
+header {
+    background-color: #e6cea3;
+    color: #886f43;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-.logo-area {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex: 1;
-
-  font-family: 'Arial', serif;
-  font-size: 28px;
-  color: #886f43; 
-  
-}
-
-.topo h1 {
-  flex: 1;
-  text-align: center;
-  font-size: 26px;
-  font-weight: bold;
-}
-
-.logo {
-  width: 40px;
-  height: 40px;
+header .logo {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .usuario {
-  position: absolute;
-  right: 20px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  text-align: right;
-  font-size: 0.9em;
-  color: #4a4a4a;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: right;
+    font-size: 0.9em;
+    color: #4a4a4a;
+    padding-right: 16px;
+    margin-right: 16px;
 }
 
 .usuario strong {
@@ -57,66 +61,88 @@ html, body {
 }
 
 .usuario img {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  object-fit: cover;
-  background-color: #886f43;
-  padding: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #886f43;
+    padding: 5px;
 }
 
-.icone-usuario {
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
-  margin-left: 10px;
-}
-
-
-main {
-  flex: 1; 
-  padding: 20px 60px;
+/* Linha com a seta e o título */
+.titulo-linha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .voltar {
+  position: absolute;
+  left: 0;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 32px;
+  transition: color 0.2s;
+  margin-left: 50px;
 }
 
-h2 {
+.voltar:hover {
+  color: #886f43;
+}
+
+.titulo-linha h2 {
+  margin: 0;
   text-align: center;
-  margin: 10px 0;
+  font-size: 1.6em;
+  color: #1a1a1a;
+  font-weight: 600;
 }
 
 hr {
   border: none;
   border-top: 1px solid #ccc;
-  margin-bottom: 30px;
+  margin: 15px auto 40px;
+  width: 90%;
 }
 
-
+/* ===== TABELA ===== */
 .tabela-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .atividades {
   width: 80%;
   border-collapse: collapse;
-  border: 2px solid #004080;
-  background-color: #efefef;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.95em;
 }
 
 .atividades thead {
-  background-color: #d6d6d6;
+  background-color: #e2c590;
 }
 
 .atividades th,
 .atividades td {
   padding: 12px 20px;
   text-align: left;
-  border: 1px solid #999;
+  border-bottom: 1px solid #ddd;
+}
+
+.atividades th {
+  color: #333;
+  font-weight: 600;
+}
+
+.atividades tbody tr:last-child td {
+  border-bottom: none;
 }
 
 .status {
@@ -142,23 +168,38 @@ hr {
 }
 
 
-footer {
-  background-color: #e2c590;
+.footer {
+  background-color: #E6CEA3;
+  width: 100%;
+  text-align: left;
+  padding: 15px 30px;
+  color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  font-size: 14px;
-  margin-top: auto; 
+  box-sizing: border-box;
+  margin-top: auto;
 }
 
-.rodape-links {
+.footer-right {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
-.whatsapp {
-  width: 30px;
-  height: 30px;
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
+
+.footer-center {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-center p {
+  margin: 0;
+  line-height: 1.5;
+}
+

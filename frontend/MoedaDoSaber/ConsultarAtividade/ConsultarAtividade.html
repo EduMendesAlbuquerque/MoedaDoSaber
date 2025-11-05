@@ -4,30 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moeda do Saber - Consultar Atividades</title>
+  <title>Consultar Atividades - Moeda do $aber</title>
   <link rel="stylesheet" href="../ConsultarAtividade/ConsultarAtividade.css">
 </head>
 
 <body>
-
-  <header class="topo">
-    <div class="logo-area">
-      <img src="../Imagens/Coruja.png" alt="Logo Moeda do Saber" class="logo">
-      <h1>MOEDA DO $ABER</h1>
-    </div>
-
+  <header>
+    <img src="../Imagens/Coruja_sem_fundo.png" alt="Logo Moeda do $aber" class="logo">
+    <h1>MOEDA DO $ABER</h1>
     <div class="usuario">
-      <p>Você está logado como <strong>Aluno</strong></p>
-      <img src="../Imagens/usuario.png" alt="Ícone de usuário" class="icone-usuario">
+      <p>Você está logado como<br><strong>Aluno</strong></p>
+      <a href="../../Login/login.html">
+        <img src="../Imagens/Octicons.png" alt="Ícone de Usuário">
+      </a>
     </div>
   </header>
 
   <main>
-    <a href="#" class="voltar">←</a>
-    <h2>Consultar Atividades</h2>
+    <div class="titulo-linha">
+      <a href="../TelaInicialAluno/TelaInicialAluno.html" class="voltar">←</a>
+      <h2>Consultar Atividades</h2>
+    </div>
     <hr>
 
-    <section class="tabela-container">
+    <div class="tabela-container">
       <table class="atividades">
         <thead>
           <tr>
@@ -40,30 +40,34 @@
         <tbody>
           <tr>
             <td>20/10/2025</td>
-            <td>C# - Avançado</td>
+            <td><strong>C# - Avançado</strong></td>
             <td>R$ 100</td>
-            <td class="status concluido">Concluído</td>
+            <td>Concluído</td>
           </tr>
           <tr>
             <td>20/10/2025</td>
             <td>Python Fundamentos</td>
             <td>R$ 100</td>
-            <td class="status pendente">
-              Pendente
-              <button class="btn-concluir">Concluir</button>
+            <td>
+              <div class="status">
+                <button class="btn-concluir">Concluir</button>
+              </div>
             </td>
           </tr>
         </tbody>
       </table>
-    </section>
+    </div>
   </main>
 
-  <footer>
-    <p>Moeda do $aber © todos os direitos reservados 2025</p>
-    <div class="rodape-links">
-      <span>Brasil</span>
-      <span>Suporte</span>
-      <img src="../Imagens/whatsapp.png" alt="WhatsApp" class="whatsapp">
+   <footer class="footer">
+    <p><b>Moeda do $aber © todos os direitos reservados<br>2025</p></b>
+    <div class="footer-right">
+      <span><b>Brasil</b></span>
+
+      <span><b>Suporte</b></span>
+      <a href="https://wa.me/5599999999999" target="_blank">
+        <img src="../../Imagens/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+      </a>
     </div>
   </footer>
 

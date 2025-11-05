@@ -103,9 +103,8 @@ hr {
   padding: 15px 30px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.8em;
   transition: background-color 0.3s ease;
-  margin-bottom: 10px;
   width: 90%;
   max-width: 500px;
   min-width: 250px;
@@ -114,19 +113,6 @@ hr {
 
 .create-plan-button:hover {
   background-color: #b8860b;
-}
-
-.footer {
-  background-color: #E6CEA3;
-  width: 100%;
-  text-align: left;
-  padding: 15px 30px;
-  color: #000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  margin-top: 40px;
 }
 
 .container h1 {
