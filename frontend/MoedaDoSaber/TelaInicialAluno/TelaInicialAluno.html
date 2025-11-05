@@ -4,17 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moeda do $aber - Aluno</title>
-  <link rel="stylesheet" href="../TelaInicial/TelaInicial.css">
-  <link rel="shortcut icon" href="../Imagens/Coruja_sem_fundo.png" type="image/png">
+  <title>Não possui Planos</title>
+  <link rel="stylesheet" href="../TelaInicialAluno/TelaInicialAluno.css">
 </head>
 
 <body>
   <header>
     <img src="../Imagens/Coruja_sem_fundo.png" alt="Logo Moeda do $aber" class="logo">
-
     <h1>MOEDA DO $ABER</h1>
-
     <div class="usuario">
       <p>Você está logado como<br><strong>Aluno</strong></p>
       <a href="../../Login/login.html">
@@ -23,29 +20,27 @@
     </div>
   </header>
 
-  <div id="loading"></div>
-
   <main id="mainContent">
-    <div class="acoes-aluno">
-      <button class="create-plan-button" onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Extrato</button>
-      <button class="create-plan-button" onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Consultar Atividades</button>
+    <div class="container-botao">
+      <button class="create-plan-button"
+        onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Extrato</button>
+      <button class="create-plan-button" onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Consultar
+        Atividades</button>
     </div>
   </main>
 
-  <footer>
-    <div class="left">
-      <p>Moeda do $aber © todos os direitos reservados</p>
-      <p>2025</p>
-    </div>
+  <footer class="footer">
+    <p><b>Moeda do $aber © todos os direitos reservados<br>2025</p></b>
+    <div class="footer-right">
+      <span><b>Brasil</b></span>
 
-    <div class="right">
-      <p>Brasil</p>
-      <p>Suporte</p>
-      <img src="/Imagens/whatsapp.png" alt="WhatsApp Suporte">
+      <span><b>Suporte</b></span>
+      <a href="https://wa.me/5599999999999" target="_blank">
+        <img src="../../Imagens/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+      </a>
     </div>
   </footer>
 
-  <script type="module" src="../TelaInicial/TelaInicial.js"></script>
 </body>
 
 </html>

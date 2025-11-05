@@ -5,30 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Não possui Planos</title>
-    <link rel="stylesheet" href="sem_planos.css">
+    <link rel="stylesheet" href="../SemPlanos/Sem_planos.css">
 </head>
 
 <body>
-    <div class="header">
-        <img src="../../Imagens/Coruja_sem_fundo.png" alt="Logo Coruja" class="logo">
-
-        <span>MOEDA DO $ABER</span>
+    <header>
+        <img src="../Imagens/Coruja_sem_fundo.png" alt="Logo Moeda do $aber" class="logo">
+        <h1>MOEDA DO $ABER</h1>
         <div class="usuario">
             <p>Você está logado como<br><strong>Professor</strong></p>
             <a href="../../Login/login.html">
                 <img src="../Imagens/Octicons.png" alt="Ícone de Usuário">
             </a>
         </div>
-    </div>
-    <div class="container">
-        <h1>Gerenciamento de Aulas</h1>
-        <hr>
-        <div class="message-container">
-            <p class="no-plans-text">Ainda não possui planos de aula!</p>
-            <button class="create-plan-button" onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Criar
-                Plano de Aula</button>
+    </header>
+
+    <main id="mainContent">
+        <div class="container">
+            <h1>Gerenciamento de Aulas</h1>
+            <hr>
+            <div class="message-container">
+                <p class="no-plans-text">Ainda não possui planos de aula!</p>
+                <button class="create-plan-button"
+                    onclick="window.location.href='/Plano/CriarPlano/criar_plano.html'">Criar
+                    Plano de Aula</button>
+            </div>
         </div>
-    </div>
+    </main>
 
     <footer class="footer">
         <p><b>Moeda do $aber © todos os direitos reservados<br>2025</p></b>
