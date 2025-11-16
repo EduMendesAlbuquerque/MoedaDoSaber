@@ -17,13 +17,18 @@
 - Front-End: **HTML5, CSS3 e JavaScript**
 - Docker: **container para Servidor Web, PHP e Banco de Dados.**
 
+## 2ª Entrega do MVP - Funcionamento do Moeda do Saber com as novas funcionalidades do Coordenador e Aluno
+
+https://github.com/user-attachments/assets/a311dad5-c121-4f67-a9e4-bcbfdf125775
+
 ## 1ª Entrega do MVP - Funcionamento do Moeda do Saber com login de Professor
 
 https://github.com/user-attachments/assets/b5255a15-2b68-47ec-914c-00be04a345d2
 
-## 2ª Entrega do MVP - Funcionamento do Moeda do Saber com as novas funcionalidades do Coordenador e Aluno
+## Trabalho escrito em PDF
 
-https://github.com/user-attachments/assets/a311dad5-c121-4f67-a9e4-bcbfdf125775
+[ProjetoIntegrador_VersaoFinal.pdf](https://github.com/user-attachments/files/23568187/ProjetoIntegrador_VersaoFinal.pdf)
+
 
 ## Como executar o projeto
 1. Subir os containeres no Docker com o comando: "**docker compose up -d**"
